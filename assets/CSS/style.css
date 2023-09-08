@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+Sogdian&family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins:ital,wght@1,200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap');
 
-:root {
-    dark-primary: #1b1f24;
-    primary: #12bdff;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -19,12 +14,13 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-header a{
+
+header a {
     text-decoration: none;
 }
 
 .logo {
-    color:  #12bdff;
+    color: #12bdff;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -66,4 +62,15 @@ header button:hover {
     cursor: pointer;
     background-color: #12bdff;
     color: #fff;
+}
+/* section hero homepage */
+section.hero-section{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding:20px 120px 0px 240px;
+}
+.hero-section__title{
+    font-size: 48px;
+    font-weight: 900;
 }
