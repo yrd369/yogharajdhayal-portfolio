@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+Sogdian&family=Nunito+Sans:opsz,wght@6..12,600&family=Poppins:ital,wght@1,200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+:root{
+    dark-primary:#1b1f24;
+    primary:#12bdff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1b1f24;
+    padding: 20px;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header.logo{
+    color: #12bdff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+body{
+     font-family: 'Nunito Sans', sans-serif;;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-right: 20px;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #12bdff;
+
+}
+header button{
+    padding:10px 20px ;
+    font-weight: bold;
+    background-color: #1b1f24;
+    border: 1px solid #12bdff;
+    color: #12bdff;
+    border-radius: 5px;
+
+}
+header button:hover{
+    cursor: pointer;
+    background-color: #12bdff;
+    color:#fff;
+}
