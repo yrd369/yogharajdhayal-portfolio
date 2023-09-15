@@ -74,3 +74,27 @@ section.hero-section{
     font-size: 48px;
     font-weight: 900;
 }
+/* about me section */
+.about-section{
+    background-color: #22282f;
+    color: #fff;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-section img {
+    width: 350px;
+    border-radius: 10px;
+    border: 3px solid #12bdff;
+}
+.about-section-desc {
+    margin-left: 100px;
+}
+.about-section-desc h4{
+    font-size: 28;
+}
+.about-section-desc ul {
+    list-style: none;
+}
