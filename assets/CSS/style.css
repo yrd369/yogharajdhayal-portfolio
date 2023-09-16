@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 /* header-section */
 header {
     background-color: #1b1f24;
@@ -298,7 +297,7 @@ footer h4 {
 }
 
 footer a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #12bdff;
 }
 
