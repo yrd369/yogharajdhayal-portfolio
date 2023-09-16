@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --primary-dark: #1b1f24;
-    --primary-dark2: #22282f;
-    --seconday-light: #12bdff;
-    --text-color: #fff;
-    --par-color: gray;
+    --primary-dark: #5cdb95;
+    --primary-dark2: #379683;
+    --seconday-light: #fff;
+    --text-color: #05386b;
+    --par-color: #fff;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
 
 /* header-section */
 header {
-    background-color: var(--primary-dark);
+    background-color: #379683;
     padding: 20px;
     color: var(--text-color);
     display: flex;
@@ -34,7 +34,7 @@ header a {
 }
 
 .logo {
-    color: var(--seconday-light);
+    color: var(--text-color);
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -63,7 +63,7 @@ ul li a:hover {
 header button {
     padding: 10px 20px;
     font-weight: bold;
-    background-color: var(--primary-dark);
+    background-color: #05386b;
     border: 1px solid #12bdff;
     color: var(--seconday-light);
     border-radius: 5px;
@@ -154,7 +154,7 @@ header button:hover {
 .dark {
     padding: 10px 20px;
     font-weight: bold;
-    background-color: var(--primary-dark);
+    background-color: #05386b;
     border: 1px solid #12bdff;
     color: var(--seconday-light);
     border-radius: 5px;
@@ -176,7 +176,8 @@ header button:hover {
     margin-right: 5px;
 }
 .light:hover {
-    background-color: #0c8ec2;
+    background-color: #05386b;
+    color: white;
 }
 
 /* about me section */
@@ -298,7 +299,7 @@ header button:hover {
 
 /* contact-section */
 .contact-section {
-    background-color: #14171c;
+    background-color: #379683;
     padding: 40px;
     text-align: center;
     color: var(--text-color);
@@ -320,12 +321,14 @@ textarea {
     outline: none;
     border: none;
     border-radius: 2px;
-    background-color: #c4c4c4;
+    background-color: #fff;
     margin-bottom: 10px;
     resize: none;
 
 }
-
+.contact-section button {
+    background-color: #05386b;
+}
 
 footer p {
     background-color: var(--primary-dark);
@@ -339,7 +342,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: var(--seconday-light);
+    color: #05386b;
     font-size: 12px;
    
 }
@@ -399,7 +402,7 @@ footer a {
         margin-right: 10px;
     }
     .about-section button.light {
-        margin: 0;
+        margin: 0px;
         margin-left: 200px;
         margin-top: 20px;
     }

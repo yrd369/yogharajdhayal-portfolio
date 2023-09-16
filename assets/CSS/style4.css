@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --primary-dark: #1b1f24;
-    --primary-dark2: #22282f;
-    --seconday-light: #12bdff;
-    --text-color: #fff;
+    --primary-dark: #edc7b7;
+    --primary-dark2: #eee2dc;
+    --seconday-light: #ac3b61;
+    --text-color: #123c69;
     --par-color: gray;
 }
 
@@ -21,7 +21,7 @@ body {
 
 /* header-section */
 header {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-dark2);
     padding: 20px;
     color: var(--text-color);
     display: flex;
@@ -64,8 +64,8 @@ header button {
     padding: 10px 20px;
     font-weight: bold;
     background-color: var(--primary-dark);
-    border: 1px solid #12bdff;
-    color: var(--seconday-light);
+    border: 1px solid #c30734;
+    color: var(--text-color);
     border-radius: 5px;
 
 }
@@ -155,8 +155,8 @@ header button:hover {
     padding: 10px 20px;
     font-weight: bold;
     background-color: var(--primary-dark);
-    border: 1px solid #12bdff;
-    color: var(--seconday-light);
+    border: 1px solid #c30734;
+    color: var(--text-color);
     border-radius: 5px;
 
 }
@@ -164,7 +164,7 @@ header button:hover {
 .dark:hover {
     cursor: pointer;
     background-color: var(--seconday-light);
-    color: var(--text-color);
+    color: #fff;
 }
 
 .light {
@@ -176,7 +176,7 @@ header button:hover {
     margin-right: 5px;
 }
 .light:hover {
-    background-color: #0c8ec2;
+    background-color: var(--par-color);
 }
 
 /* about me section */
@@ -267,7 +267,7 @@ header button:hover {
 
 .work-section-box a {
     text-decoration: none;
-    color: aqua;
+    color: var(--seconday-light);
 }
 
 .work-section-desc-box {
@@ -298,7 +298,7 @@ header button:hover {
 
 /* contact-section */
 .contact-section {
-    background-color: #14171c;
+    background-color: var(--primary-dark2);
     padding: 40px;
     text-align: center;
     color: var(--text-color);
