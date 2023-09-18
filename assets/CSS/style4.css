@@ -73,8 +73,9 @@ header button {
 header button:hover {
     cursor: pointer;
     background-color: var(--seconday-light);
-    color: var(--text-color);
+    color: #fff;
 }
+
 
 /* section hero homepage */
 .hero-section {
@@ -127,15 +128,22 @@ header button:hover {
 
 .fa-facebook {
     margin-right: 10px;
+    color: #123c69;
 }
 
 .fa-linkedin {
     margin-right: 10px;
+    color: #123c69;
 }
 
 .fa-twitter {
     margin-right: 10px;
+    color: #123c69;
 }
+.fa-instagram {
+    color: #123c69;
+}
+
 .fa-facebook:hover {
     color: #1877F2;
 }
@@ -176,7 +184,8 @@ header button:hover {
     margin-right: 5px;
 }
 .light:hover {
-    background-color: var(--par-color);
+   background-color: var(--primary-dark);
+   border: 1px solid #c30734;
 }
 
 /* about me section */
@@ -279,6 +288,7 @@ header button:hover {
     background-color: var(--seconday-light);
     padding: 10px;
     border-radius: 50%;
+    color: var(--primary-dark2);
 }
 
 .work-section-items {
@@ -326,7 +336,6 @@ textarea {
 
 }
 
-
 footer p {
     background-color: var(--primary-dark);
     color: var(--text-color);
@@ -334,6 +343,23 @@ footer p {
     text-align: center;
     padding: 20px 0px;
     color: #808080;
+
+}
+
+.footer-buttons {
+    background-color: var(--primary-dark2);
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer-color-button {
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: var(--seconday-light);
+    border: none;
+    color: black;
+    border-radius: 5px;
+    margin-right: 5px;
 
 }
 
@@ -355,8 +381,9 @@ footer a {
         margin-bottom: 10px;
     }
 
-    .header>button {
+    .header button {
         margin-right: 10px;
+
     }
 
     /* .hero-section */

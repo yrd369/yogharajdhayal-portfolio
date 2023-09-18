@@ -110,7 +110,7 @@ header button:hover {
 
 .hero-section-icons {
     color: var(--text-color);
-    margin-left: 70px;
+    margin-left: 72px;
     margin-top: 20px;
     padding-right: 50px;
 }
@@ -127,14 +127,21 @@ header button:hover {
 
 .fa-facebook {
     margin-right: 10px;
+    color: #fff;
 }
 
 .fa-linkedin {
     margin-right: 10px;
+    color: #fff;
 }
+.fa-instagram {
+    color: #fff;
+}
+
 
 .fa-twitter {
     margin-right: 10px;
+    color: #fff;
 }
 .fa-facebook:hover {
     color: #1877F2;
