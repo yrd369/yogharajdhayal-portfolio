@@ -1,4 +1,4 @@
-# My Portfolio Website
+# Yogha Raj Dhayal Portfolio Website
 
 Welcome to my portfolio website! This website serves as a showcase of my work, skills, and projects. You can view it live at [Yogha Raj Dhayal Portfolio](https://yrd369.github.io/yogharajdhayal-portfolio/).
 
@@ -29,4 +29,4 @@ To set up your own portfolio website, follow these steps:
 
 1. *Clone this repository* to your local machine:
    ```shell
-   git clone https://github.com/yrd369/yogharajdhayal-portfolio
+   git clone  at (https://github.com/yrd369/yogharajdhayal-portfolio)
